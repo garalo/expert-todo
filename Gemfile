@@ -78,6 +78,7 @@ group :test do
     gem "rspec-#{name}", github: "rspec/rspec-#{name}"
   end
   gem "capybara"
+  gem "selenium-webdriver"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
